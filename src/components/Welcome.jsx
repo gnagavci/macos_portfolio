@@ -10,7 +10,7 @@ const FONT_WEIGHTS = {
 const renderText = (text, className, baseWeight = 400) => {
     return [...text].map((char, i) => (
         <span
-            id={i}
+            key={i}
             className={className}
             style={{ fontVariationSettings: `'wght' ${baseWeight}` }}
         >
