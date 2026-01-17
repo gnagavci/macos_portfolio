@@ -44,7 +44,7 @@ const Dock = () => {
                     y: 0,
                     duration: 0.3,
                     ease: "power1.out",
-                })
+                }),
             );
         };
 
@@ -89,7 +89,7 @@ const Dock = () => {
                             onClick={() => toggleApp({ id, canOpen })}
                         >
                             <img
-                                src={`/images/${icon}`}
+                                src={`${import.meta.env.BASE_URL}images/${icon}`}
                                 alt={name}
                                 loading="lazy"
                                 className={canOpen ? "" : "opacity-60"}
