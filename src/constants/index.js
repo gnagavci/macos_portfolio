@@ -103,27 +103,23 @@ const blogPosts = [
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
-    },
-    {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        items: ["Javascript", "React.js", "Basic TypeScript"],
     },
     {
         category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        items: ["CSS3", "Basic Tailwind CSS"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        items: ["Node.js", "Express", "Python"],
     },
     {
         category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        items: ["MongoDB", "MySQL"],
     },
     {
         category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        items: ["Git", "GitHub", "Docker", "Basic Linux", "NPM"],
     },
 ];
 
@@ -137,24 +133,17 @@ const socials = [
     },
     {
         id: 2,
-        text: "Platform",
-        icon: `${BASE_URL}icons/atom.svg`,
-        bg: "#4bcb63",
-        link: "https://jsmastery.com/",
-    },
-    {
-        id: 3,
-        text: "Twitter/X",
-        icon: `${BASE_URL}icons/twitter.svg`,
-        bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
-    },
-    {
-        id: 4,
         text: "LinkedIn",
         icon: `${BASE_URL}icons/linkedin.svg`,
         bg: "#05b6f6",
         link: "https://www.linkedin.com/in/gegenagavci/",
+    },
+    {
+        id: 3,
+        text: "Email",
+        icon: `${BASE_URL}icons/email.svg`,
+        bg: "#4bcb63",
+        link: "mailto:gegenagavci@gmail.com",
     },
 ];
 
@@ -189,19 +178,19 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: `${BASE_URL}images/gal1.png`,
+        img: `${BASE_URL}images/gega.jpg`,
     },
     {
         id: 2,
-        img: `${BASE_URL}images/gal2.png`,
+        img: `${BASE_URL}images/gega2.jpeg`,
     },
     {
         id: 3,
-        img: `${BASE_URL}images/gal3.png`,
+        img: `${BASE_URL}images/gega3.jpeg`,
     },
     {
         id: 4,
-        img: `${BASE_URL}images/gal4.png`,
+        img: `${BASE_URL}images/gega4.png`,
     },
 ];
 

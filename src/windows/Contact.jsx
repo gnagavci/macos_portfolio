@@ -15,17 +15,14 @@ const Contact = () => {
                 {/* {`${import.meta.env.BASE_URL}images/adrian.jpg`} */}
 
                 <img
-                    src={`${import.meta.env.BASE_URL}images/adrian.jpg`}
+                    src={`${import.meta.env.BASE_URL}images/gega.jpg`}
                     alt="Adrian"
                     className="w-20 rounded-full"
                 />
 
                 <h3>Let's Connect</h3>
-                <p>
-                    Got an idea? A bug to squash? Or just wanna talk tech? I'm
-                    in.
-                </p>
-                <p>gegenagavci@gmail.com</p>
+                <p>Got an idea, a project or a job opportunity? I'm in.</p>
+                {/* <p>gegenagavci@gmail.com</p> */}
 
                 <ul>
                     {socials.map(({ id, bg, link, icon, text }) => (
