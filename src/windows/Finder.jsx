@@ -30,7 +30,7 @@ const Finder = () => {
                         className={clsx(
                             item.id === activeLocation.id
                                 ? "active"
-                                : "not-active"
+                                : "not-active",
                         )}
                     >
                         <img src={item.icon} alt={item.name} className="w-4" />
@@ -55,7 +55,7 @@ const Finder = () => {
                     {renderList("Favorites", Object.values(locations))}
                     {renderList(
                         "My Projects",
-                        Object.values(locations.work.children)
+                        Object.values(locations.work.children),
                     )}
                 </div>
                 <ul className="content">

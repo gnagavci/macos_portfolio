@@ -73,6 +73,7 @@ const Dock = () => {
             openWindow(app.id);
         }
     };
+
     return (
         <section id="dock">
             <div ref={dockRef} className="dock-container">
