@@ -266,30 +266,19 @@ body {
         }
 
         .gallery {
-            @apply p-5;
+            @apply p-5 h-120 overflow-y-auto;
 
             ul {
-                @apply grid grid-cols-5 grid-rows-5 gap-2.5 auto-rows-[6rem];
+                /* Switched to columns for masonry layout (tight fit, no gaps) */
+                @apply columns-3 gap-3;
 
                 li {
+                    /* break-inside-avoid keeps images whole */
+                    @apply break-inside-avoid mb-3 cursor-pointer transition-transform hover:scale-105;
+
                     img {
-                        @apply size-full object-cover rounded-lg;
-                    }
-
-                    &:first-child {
-                        @apply row-start-1 row-span-3 col-start-1 col-span-3;
-                    }
-
-                    &:nth-child(2) {
-                        @apply row-start-1 row-span-3 col-start-4 col-span-2;
-                    }
-
-                    &:nth-child(3) {
-                        @apply row-start-4 row-span-2 col-start-3 col-span-3;
-                    }
-
-                    &:last-child {
-                        @apply row-start-4 row-span-2 col-start-1 col-span-2;
+                        /* w-full fills the column width, height matches image aspect ratio */
+                        @apply w-full rounded-lg;
                     }
                 }
             }

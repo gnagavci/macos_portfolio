@@ -192,6 +192,14 @@ const gallery = [
         id: 4,
         img: `${BASE_URL}images/gega4.jpg`,
     },
+    {
+        id: 5,
+        img: `${BASE_URL}images/gega5.jpeg`,
+    },
+    {
+        id: 6,
+        img: `${BASE_URL}images/gega6.jpeg`,
+    },
 ];
 
 export {
