@@ -24,7 +24,7 @@ const Image = () => {
                         <img
                             src={imageUrl}
                             alt={name}
-                            className="w-full h-auto max-h-[70vh] object-contain rounded"
+                            className="w-auto mx-auto block max-w-full h-auto max-h-[70vh] object-contain rounded"
                         />
                     </div>
                 ) : null}
