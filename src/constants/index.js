@@ -182,15 +182,15 @@ const gallery = [
     },
     {
         id: 2,
-        img: `${BASE_URL}images/gega2.jpeg`,
+        img: `${BASE_URL}images/gega2.jpg`,
     },
     {
         id: 3,
-        img: `${BASE_URL}images/gega3.jpeg`,
+        img: `${BASE_URL}images/gega3.jpg`,
     },
     {
         id: 4,
-        img: `${BASE_URL}images/gega4.png`,
+        img: `${BASE_URL}images/gega4.jpg`,
     },
 ];
 
