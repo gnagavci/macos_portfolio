@@ -7,16 +7,24 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+// Fix 1: Use local worker import for better stability with Vite
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+    "pdfjs-dist/build/pdf.worker.min.mjs",
+    import.meta.url,
+).toString();
 
 const Resume = () => {
+    // Fix 2: Use import.meta.env.BASE_URL to ensure correct path in production/deployment
+    const resumeUrl = `${import.meta.env.BASE_URL}files/resume.pdf`;
+
     return (
         <>
             <div id="window-header">
                 <WindowControls target="resume" />
                 <h2>Resume.pdf</h2>
+                {/* Fix 3: Update download link to use correct base path */}
                 <a
-                    href="files/resume.pdf"
+                    href={resumeUrl}
                     download
                     className="cursor-pointer"
                     title="Download resume"
@@ -24,7 +32,8 @@ const Resume = () => {
                     <Download className="icon" />
                 </a>
             </div>
-            <Document file="files/resume.pdf">
+            {/* Fix 4: Pass the correct URL to Document */}
+            <Document file={resumeUrl}>
                 <Page
                     pageNumber={1}
                     renderTextLayer

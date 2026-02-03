@@ -223,7 +223,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Converso - AI Teaching Platform",
             icon: `${BASE_URL}images/folder.png`,
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -231,43 +231,37 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Converso Project.txt",
                     icon: `${BASE_URL}images/txt.png`,
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "The Converso platform is a sleek and modern AI-driven educational space designed for real-time voice learning with customizable tutors.",
+
+                        "Instead of a standard learning portal, it delivers an immersive experience with voice-activated sessions, live transcripts, and dynamic subject-specific interactions.",
+
+                        "Think of it like having a personal expert tutor available for any subject—accessible instantly from your browser.",
+
+                        "It's built with Next.js, Tailwind CSS, and Vapi.ai, ensuring ultra-fast communication, a responsive interface, and a seamless learning journey.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
-                    icon: `${BASE_URL}images/safari.png`,
-                    kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-                    position: "top-10 right-20",
-                },
-                {
-                    id: 4,
-                    name: "nike.png",
+                    name: "converso_1.png",
                     icon: `${BASE_URL}images/image.png`,
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: `${BASE_URL}images/project-1.png`,
+                    imageUrl: `${BASE_URL}images/converso_1.png`,
                 },
                 {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: `${BASE_URL}images/plain.png`,
+                    id: 3,
+                    name: "converso_2.png",
+                    icon: `${BASE_URL}images/image.png`,
                     kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
+                    fileType: "img",
+                    imageUrl: `${BASE_URL}images/converso_2.png`,
                     position: "top-60 right-20",
                 },
             ],
@@ -276,51 +270,46 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Agentarium - Cellular Simulation Plaform",
             icon: `${BASE_URL}images/folder.png`,
             kind: "folder",
             position: "top-52 right-80",
-            windowPosition: "top-[20vh] left-7",
+            windowPosition: "top-[25vh] left-7",
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Agentarium.txt",
                     icon: `${BASE_URL}images/txt.png`,
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "The Agentarium platform is a sophisticated and powerful research tool designed for modeling and analyzing complex tumor microenvironments.",
+
+                        "Instead of a static data portal, it delivers a high-performance simulation engine featuring interactive 2D and 3D visualizations, real-time status tracking, and comprehensive analytical charts.",
+
+                        "Think of it like having a high-tech biological laboratory accessible from anywhere—allowing you to run complex experiments without ever touching a pipette.",
+
+                        "It’s built with React 19, Node.js, and RabbitMQ, ensuring scalable microservice orchestration, rapid job processing, and a sleek, professional interface for modern researchers.",
                     ],
                 },
+
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
-                    icon: `${BASE_URL}images/safari.png`,
-                    kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
-                    position: "top-20 left-20",
-                },
-                {
-                    id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "agentarium_1.png",
                     icon: `${BASE_URL}images/image.png`,
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
-                    imageUrl: `${BASE_URL}images/project-2.png`,
+                    imageUrl: `${BASE_URL}images/agentarium_1.png`,
                 },
                 {
                     id: 5,
-                    name: "Design.fig",
-                    icon: `${BASE_URL}images/plain.png`,
+                    name: "agentarium_2.png",
+                    icon: `${BASE_URL}images/image.png`,
                     kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
+                    fileType: "img",
+                    imageUrl: `${BASE_URL}images/agentarium_2.png`,
                     position: "top-60 left-5",
                 },
             ],
@@ -329,52 +318,65 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "MoviesByGegë",
             icon: `${BASE_URL}images/folder.png`,
             kind: "folder",
             position: "top-10 left-80",
-            windowPosition: "top-[33vh] left-7",
+            windowPosition: "top-[65vh] left-14",
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "MoviesByGegë.txt",
                     icon: `${BASE_URL}images/txt.png`,
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "The MoviesByGege platform is a sophisticated and intuitive movie discovery application designed for real-time search and cinematic trend analysis.",
+
+                        "Instead of a static movie directory, it provides a dynamic discovery engine featuring debounced real-time results, trending analytics based on live search frequency, and a robust SQLite-powered caching layer for optimized performance.",
+
+                        "Think of it like having a personal cinematic data analyst—one that not only helps you find your next favorite film but also tracks the pulse of what audiences are watching from anywhere in the world.",
+
+                        "It’s built with React 19, Node.js, and SQLite, utilizing Docker for multi-service orchestration and a multi-layer testing infrastructure featuring Playwright and Vitest for a seamless, high-performance experience.",
                     ],
                 },
                 {
-                    id: 2,
-                    name: "food-delivery-app.com",
-                    icon: `${BASE_URL}images/safari.png`,
-                    kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-                    position: "top-10 right-20",
-                },
-                {
-                    id: 4,
-                    name: "food-delivery-app.png",
+                    id: 3,
+                    name: "moviesbygege.png",
                     icon: `${BASE_URL}images/image.png`,
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: `${BASE_URL}images/project-3.png`,
+                    imageUrl: `${BASE_URL}images/moviesbygege.png`,
                 },
+            ],
+        },
+        // ▶ Project 4
+        {
+            id: 8,
+            name: "Subscription Tracker API",
+            icon: `${BASE_URL}images/folder.png`,
+            kind: "folder",
+            position: "top-35 left-85",
+            windowPosition: "top-[45vh] left-7",
+            children: [
                 {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: `${BASE_URL}images/plain.png`,
+                    id: 1,
+                    name: "Subscription Tracker.txt",
+                    icon: `${BASE_URL}images/txt.png`,
                     kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "The Subscription-Tracker platform is a sophisticated and robust financial management tool designed for organizing, monitoring, and optimizing recurring service expenses.",
+
+                        "Instead of a static subscription list, it delivers a dynamic automated workflow engine featuring intelligent renewal tracking, real-time security filtering, and proactive notification scheduling.",
+
+                        "Think of it like having a dedicated financial concierge—one that never sleeps and ensures you are alerted well before a trial ends or a subscription renews, preventing any unwanted charges.",
+
+                        "It’s built with Node.js, Express, and MongoDB, integrating Upstash for serverless workflow orchestration and Arcjet for advanced security and rate limiting, providing a secure and scalable architecture for modern expense management.",
+                    ],
                 },
             ],
         },
