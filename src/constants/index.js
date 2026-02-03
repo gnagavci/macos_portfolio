@@ -397,7 +397,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: `${BASE_URL}images/adrian.jpg`,
+            imageUrl: `${BASE_URL}images/gega3.jpg`,
         },
         {
             id: 2,
@@ -406,16 +406,16 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: `${BASE_URL}images/adrian-2.jpg`,
+            imageUrl: `${BASE_URL}images/gega6.jpeg`,
         },
         {
             id: 3,
-            name: "conference-me.png",
+            name: "graduation-me.png",
             icon: `${BASE_URL}images/image.png`,
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: `${BASE_URL}images/adrian-3.jpeg`,
+            imageUrl: `${BASE_URL}images/gega5.jpeg`,
         },
         {
             id: 4,
@@ -427,10 +427,13 @@ const ABOUT_LOCATION = {
             subtitle: "Meet the Developer Behind the Code",
             image: `${BASE_URL}images/adrian.jpg`,
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Gegë 👋, a full-stack engineer who loves building scalable, production-ready systems that are as clean under the hood as they are on the surface.",
+
+                "I specialize in the heavy lifting—Node.js, Docker, and React 19—and I thrive on designing architectures where performance and structure are the main characters.",
+
+                "I’m big on correctness, maintainability, and writing code that future developers (and future me) won’t hate.",
+
+                "Outside of the terminal, you’ll find me exploring the tech scenes in Budapest and Gjakova, analyzing real-world systems like they’re codebases, or meticulously organizing things because—well, structure matters everywhere 😅",
             ],
         },
     ],
